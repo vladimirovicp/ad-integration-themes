@@ -32,15 +32,25 @@
 |  go-up  |  go-up |  go-up  |  go-up  | go-up |  ADMC_CATEGORY_GO_UP_ACTION  |
 |  go-previous  |  go-previous |  go-previous  |  go-previous |  go-previous  |  ADMC_CATEGORY_GO_PREVIOUS_ACTION  |
 |  go-next  |  go-next |  go-next  |  go-next | go-next |  ADMC_CATEGORY_GO_NEXT_ACTION  |
-|  FSMO-role-container  |   |    |  |  |    |
-|  FSMO-role  |   |    |    |    |    |
+|  FSMO-role-container  |   |    |  |  FSMO-role-container  |  ADMC_CATEGORY_FSMO_ROLE_CONTAINER  |
+|  FSMO-role  |   |    |    |  FSMO-role  |  ADMC_CATEGORY_FSMO_ROLE  |
 |  fallback  |  fallback |  fallback  |  fallback |    |    |
 |  enforced-indicator  |   |    |  |  |    |
-|  domain-info-item  |   |    |  |  |    |
-|  Domain-DNS  | Domain-DNS  |  Domain-DNS  |  Domain-DNS  |    |    |
+|  domain-info-item  |   |    |  |  domain-info-item   |  ADMC_CATEGORY_DOMAIN_INFO_ITEM  |
+|  Domain-DNS  | Domain-DNS  |  Domain-DNS  |  Domain-DNS  |  Domain-DNS  |  OBJECT_CATEGORY_DOMAIN_DNS  |
 |  dialog-question  |  dialog-question |  dialog-question  |  dialog-question |  |    |
-|  Container  | Container  |  Container  | Container |    |    |
-|  Computer  | Computer  |  Computer  |  Computer  |    |    |
+|  Container  | Container  |  Container  | Container |  Container  |  OBJECT_CATEGORY_CONTAINER  |
+|  Computer  | Computer  |  Computer  |  Computer  |  Computer  |  OBJECT_CATEGORY_COMPUTER  |
 |  Builtin-Domain  |   |    |   |  |    |
 |  block-indicator  |   |  block-indicator  | block-indicator | |    |
-|  all-policies-folder  |   |    |  |  |    |
+|  all-policies-folder  |   |    |  | all-policies-folder |  ADMC_CATEGORY_ALL_POLICIES_FOLDER  |
+
+
+# Путь расположения темы
+
+* /usr/share/ad-integration-themes/
+
+
+# Версии ADMC
+
+* 0.20.0
