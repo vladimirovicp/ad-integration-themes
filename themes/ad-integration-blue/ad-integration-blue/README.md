@@ -25,7 +25,7 @@
 |  link-indicator  |   |  link-indicator  |  link-indicator |  |    |
 |  inheritance-indicator  |   |  inheritance-indicator  |  inheritance-indicator |  |    |
 |  Infrastructure-Update  |   |    |  |  |    |
-|  help  |   |    |  | help |  ADMC_CATEGORY_MANUAL_ACTION |
+|  help  |   |    |  | help |    |
 |  group-policy-objects  |   |    |  |  |  ADMC_CATEGORY_GP_OBJECTS  |
 |  Group-Policy-Container  |  Group-Policy-Container |  Group-Policy-Container  |  Group-Policy-Container  |  Group-Policy-Container  |  OBJECT_CATEGORY_GP_CONTAINER  |
 |  Group  |  Group |  Group  |  Group |  Group  |  OBJECT_CATEGORY_GROUP  |
@@ -41,7 +41,7 @@
 |  dialog-question  |  dialog-question |  dialog-question  |  dialog-question |  |    |
 |  Container  | Container  |  Container  | Container |  Container  |  OBJECT_CATEGORY_CONTAINER  |
 |  Computer  | Computer  |  Computer  |  Computer  |  Computer  |  OBJECT_CATEGORY_COMPUTER  |
-|  Builtin-Domain  |   |    |   |  Builtin-Domain  |  OBJECT_CATEGORY_BUILTIN  |
+|  Builtin-Domain  |   |    |   |  |    |
 |  block-indicator  |   |  block-indicator  | block-indicator | |    |
 |  all-policies-folder  |   |    |  | all-policies-folder |  ADMC_CATEGORY_ALL_POLICIES_FOLDER  |
 
